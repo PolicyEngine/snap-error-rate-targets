@@ -1,0 +1,18 @@
+[project]
+name = "snap-error-rate-targets"
+version = "0.1.0"
+description = "Error-dollar cuts that bring each state's SNAP payment error rate to 6%, on file and official rates"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = ["hypothesis>=6.100", "pytest>=8"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

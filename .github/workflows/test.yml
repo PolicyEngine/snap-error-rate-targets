@@ -1,0 +1,17 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Confirm the committed input matches snap-qc-sim
+        run: uv run python fetch_inputs.py --check
+      - name: Run tests
+        run: uv run pytest -q

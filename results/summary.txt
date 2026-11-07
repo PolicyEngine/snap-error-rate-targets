@@ -1,0 +1,11 @@
+Jurisdictions in scope: 49
+At or above 6% on FY2024 file rates: 27 (matches the paper's 27: True)
+At or above 6% on official FY2024 rates: 41
+At or above 6% on official FY2025 rates: 40
+Official FY2024 only: AR, IA, IN, KS, KY, LA, MO, MT, NH, NJ, OH, SC, TN, WA, WV
+File only: NV
+Out of reach if the layer stays put: NJ, FL, KS, NY, DE
+Median cut for the paper's 27: 24% against the file rate, 45% proportional, 60% with the layer fixed
+CA: 25% against the file rate, 45% to 63% against the official rate
+MA: 44% against the file rate, 57% to 76% against the official rate
+DC: 57% against the file rate, 65% to 81% against the official rate

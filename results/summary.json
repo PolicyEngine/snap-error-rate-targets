@@ -1,0 +1,56 @@
+{
+  "at_or_above_6_file_fy2024": 27,
+  "at_or_above_6_official_fy2024": 41,
+  "at_or_above_6_official_fy2025": 40,
+  "featured_cuts": {
+    "CA": [
+      0.245543,
+      0.453552,
+      0.6262
+    ],
+    "DC": [
+      0.572471,
+      0.654776,
+      0.810879
+    ],
+    "MA": [
+      0.436426,
+      0.574468,
+      0.760826
+    ]
+  },
+  "file_only": [
+    "NV"
+  ],
+  "file_set_matches_paper_27": true,
+  "jurisdictions_in_scope": 49,
+  "official_fy2024_only": [
+    "AR",
+    "IA",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MO",
+    "MT",
+    "NH",
+    "NJ",
+    "OH",
+    "SC",
+    "TN",
+    "WA",
+    "WV"
+  ],
+  "out_of_reach_with_fixed_layer": [
+    "NJ",
+    "FL",
+    "KS",
+    "NY",
+    "DE"
+  ],
+  "paper_27_median_cut": {
+    "against_file": 0.238307,
+    "fixed_layer": 0.60163,
+    "proportional": 0.448022
+  }
+}
